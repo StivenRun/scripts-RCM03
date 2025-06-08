@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  supervisor:
+    build: .
+    container_name: script_supervisor
+    restart: always
